@@ -1,0 +1,6 @@
+# build command
+Remove /build -> create /build
+cmake ../
+make
+# run command
+./deep_sort /home/fitmta/Desktop/phenikaa_person_tracking_cpp/config/deepsort_config.txt

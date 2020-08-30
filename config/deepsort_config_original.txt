@@ -1,0 +1,41 @@
+[video_read]
+/home/fitmta/Desktop/phenikaa_person_tracking_cpp/video/E1.mp4
+[video_write]
+/home/fitmta/Desktop/phenikaa_person_tracking_cpp/results/
+[name]
+E1
+[config_file<yolov3>]
+/home/fitmta/Desktop/phenikaa_person_tracking_cpp/models/tiny_yolov4.cfg
+[weights_file]
+/home/fitmta/Desktop/phenikaa_person_tracking_cpp/models/yolov4-tiny.weights
+[names_file]
+/home/fitmta/Desktop/phenikaa_person_tracking_cpp/models/coco.names
+[METRIC_MODEL]
+../RUNNINGDATA/tensor_networks/111.meta
+[FEATURE_MODEL]
+../RUNNINGDATA/tensor_networks/mars-small128.ckpt-68577
+[step_frame]
+3
+[ARGS_NN_BUDGET]
+50
+[ARGS_MAX_COSINE_DISTANCE]
+0.7
+[DT]
+1.0
+[MAX_IOU_DISTANCE]
+0.9
+[MAX_AGE]
+30
+[N_INIT]
+10
+[CLASSES]
+../config/classes.txt
+[SHOW_DETECTIONS] # 1 = true 0 = false
+0
+[VIDEO/CAM] # 1 = Video 0 = Cam
+1
+[Show_Video] # 1 = true 0 = false
+1
+[Write_Video] # 1 = true 0 = false
+0
+
